@@ -104,7 +104,7 @@ namespace SAIN
             {
                 ToggleVanillaLayersForScavs(_vanillaBotSettings.VanillaScavs);
                 ToggleVanillaLayersForRogues(_vanillaBotSettings.VanillaRogues);
-                ToggleVanillaLayersForRaiders(new List<WildSpawnType>() { WildSpawnType.pmcBot }, _vanillaBotSettings.VanillaRaiders);
+                ToggleVanillaLayersForRaiders(new List<WildSpawnType>() { WildSpawnType.pmcBot }, false); // _vanillaBotSettings.VanillaRaiders);
                 ToggleVanillaLayersForBloodHounds(_vanillaBotSettings.VanillaBloodHounds);
                 ToggleVanillaLayersForBosses(_vanillaBotSettings.VanillaBosses);
                 ToggleVanillaLayersForFollowers(_vanillaBotSettings.VanillaFollowers);
